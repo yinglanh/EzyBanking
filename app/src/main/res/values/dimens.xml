@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_48dp">48dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="primary_button_height">48dp</dimen>
+    <dimen name="primary_margin">10dp</dimen>
+    <dimen name="channel_width">150dp</dimen>
+    <dimen name="channel_height">150dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+</resources>

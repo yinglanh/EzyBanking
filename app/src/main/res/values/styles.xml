@@ -1,0 +1,36 @@
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorGrayBackground</item>
+        <item name="icon">@drawable/ic_logo</item>
+        <item name= "android:textViewStyle" > @style/RobotoTextViewStyle </item>
+    </style>
+
+    <style name="MyTextStyle" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize"> 16sp </item>
+        <item name="android:textStyle"> bold </item>
+    </style>
+
+    <style name="InfoTextStyle" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/Grey</item>
+        <item name="android:textSize"> 18sp </item>
+        <item name="android:textStyle"> bold </item>
+    </style>
+
+    <style name="MyButtonStyle" parent="android:Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle"> bold </item>
+        <item name="textAllCaps"> true</item>
+        <item name="android:textSize"> 16sp </item>
+        <item name="android:layout_margin">@dimen/primary_margin</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="cardCornerRadius">20dp</item>
+    </style>
+
+    <style name= "RobotoTextViewStyle" parent= "android:Widget.TextView" >
+        <item name= "android:fontFamily" > sans-serif-light </item>
+        <item name="android:textSize"> 32sp </item>
+        <item name="android:textStyle"> bold </item>
+    </style>
+
+</resources>
