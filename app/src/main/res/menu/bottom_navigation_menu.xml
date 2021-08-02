@@ -11,7 +11,7 @@
         android:title="@string/top_up"
         android:icon="@drawable/ic_pay" />
     <item
-        android:id="@+id/transactionFragment"
+        android:id="@+id/transactionsFragment"
         android:enabled="true"
         android:title="@string/transactions"
         android:icon="@drawable/ic_transaction"/>
