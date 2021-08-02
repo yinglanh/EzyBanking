@@ -9,5 +9,13 @@
         android:id="@+id/accountFragment"
         android:name="com.example.ezybanking.view.AccountFragment"
         android:label="AccountFragment" />
+    <fragment
+        android:id="@+id/payFragment"
+        android:name="com.example.ezybanking.view.PayFragment"
+        android:label="PayFragment" />
+    <fragment
+        android:id="@+id/transactionsFragment"
+        android:name="com.example.ezybanking.view.TransactionsFragment"
+        android:label="TransactionsFragment" />
 
 </navigation>

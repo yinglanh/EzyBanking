@@ -7,4 +7,6 @@
     <string name="top_up">Top Up</string>
     <string name="balance_0">Balance: $0</string>
     <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="send_on">Send On</string>
 </resources>
