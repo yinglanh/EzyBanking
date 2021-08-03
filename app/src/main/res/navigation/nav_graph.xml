@@ -8,11 +8,22 @@
     <fragment
         android:id="@+id/accountFragment"
         android:name="com.example.ezybanking.view.AccountFragment"
-        android:label="AccountFragment" />
+        android:label="AccountFragment" >
+        <action
+            android:id="@+id/action_accountFragment_to_payFragment"
+            app:destination="@id/payFragment" />
+        <action
+            android:id="@+id/action_accountFragment_to_transactionsFragment"
+            app:destination="@id/transactionsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/payFragment"
         android:name="com.example.ezybanking.view.PayFragment"
-        android:label="PayFragment" />
+        android:label="PayFragment" >
+        <action
+            android:id="@+id/action_payFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
     <fragment
         android:id="@+id/transactionsFragment"
         android:name="com.example.ezybanking.view.TransactionsFragment"
