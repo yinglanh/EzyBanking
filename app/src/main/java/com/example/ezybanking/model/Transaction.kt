@@ -6,15 +6,11 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 
 @Entity(
-    tableName = "transactions",
-    indices = [Index("creation_date")]
+    tableName = "transactions"
 )
 data class Transaction(
-    @PrimaryKey
-    @ColumnInfo(name = "creation_date")
-    val creationDate: String,
-
-    @ColumnInfo(name = "amount") val amount: Number?,
-    @ColumnInfo(name = "date") val lastName: String?,
-    @ColumnInfo(name = "description") val description: String?
+    @PrimaryKey(autoGenerate = true) val id: Int,
+    @ColumnInfo(name = "amount") val amount: Int?,
+    @ColumnInfo(name = "description") val description: String?,
+    @ColumnInfo(name = "date") val date: String?
 )
